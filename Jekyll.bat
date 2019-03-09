@@ -1,3 +1,5 @@
+:: Source : https://superuser.com/questions/667607/check-if-current-command-prompt-was-launched-as-the-administrator
+
 @echo off
 
 whoami /groups | find "S-1-16-12288" > nul
